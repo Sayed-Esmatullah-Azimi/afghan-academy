@@ -1,6 +1,6 @@
 @extends('Layouts.master')
 @section('content')
-   <h1>{{$page}}</h1>
+   <h1>{{__('messages.admin')}}</h1>
    <div class="row">
         <div class="col-md-6 mx-auto">
             <a href="{{route('admin.create')}}" class="btn btn-primary mb-2">Create Post</a>

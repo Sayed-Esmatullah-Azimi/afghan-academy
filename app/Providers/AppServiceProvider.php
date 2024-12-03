@@ -19,6 +19,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        $language = request()->language;
+        App()->setLocale($language);
     }
 }

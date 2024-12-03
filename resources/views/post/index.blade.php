@@ -1,6 +1,6 @@
 @extends('Layouts.master')
 @section('content')
-   <h1>{{$page}}</h1>
+   <h1>{{__('messages.post')}}</h1>
    <div class="row">
         <div class="col-md-6 mx-auto">
             @foreach ($posts as $post)
